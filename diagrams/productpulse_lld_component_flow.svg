@@ -1,0 +1,299 @@
+<svg width="2400" height="1600" viewBox="0 0 2400 1600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="pageBg" x1="0" y1="0" x2="2400" y2="1600" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#F8FAFC"/>
+      <stop offset="0.52" stop-color="#EFF5F8"/>
+      <stop offset="1" stop-color="#F8F3EA"/>
+    </linearGradient>
+    <linearGradient id="headerGrad" x1="92" y1="54" x2="2308" y2="190" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#111827"/>
+      <stop offset="0.55" stop-color="#1F2937"/>
+      <stop offset="1" stop-color="#0F4C81"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#0F172A" flood-opacity="0.13"/>
+    </filter>
+    <filter id="softShadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="8" stdDeviation="9" flood-color="#0F172A" flood-opacity="0.09"/>
+    </filter>
+    <marker id="arrow" markerWidth="14" markerHeight="14" refX="12" refY="7" orient="auto" markerUnits="strokeWidth">
+      <path d="M2 2 L12 7 L2 12 Z" fill="#1F2937"/>
+    </marker>
+    <marker id="arrowRed" markerWidth="14" markerHeight="14" refX="12" refY="7" orient="auto" markerUnits="strokeWidth">
+      <path d="M2 2 L12 7 L2 12 Z" fill="#E84A5F"/>
+    </marker>
+    <marker id="arrowBlue" markerWidth="14" markerHeight="14" refX="12" refY="7" orient="auto" markerUnits="strokeWidth">
+      <path d="M2 2 L12 7 L2 12 Z" fill="#2563EB"/>
+    </marker>
+    <marker id="arrowGreen" markerWidth="14" markerHeight="14" refX="12" refY="7" orient="auto" markerUnits="strokeWidth">
+      <path d="M2 2 L12 7 L2 12 Z" fill="#168A6A"/>
+    </marker>
+    <marker id="arrowAmber" markerWidth="14" markerHeight="14" refX="12" refY="7" orient="auto" markerUnits="strokeWidth">
+      <path d="M2 2 L12 7 L2 12 Z" fill="#B7791F"/>
+    </marker>
+    <style>
+      .title { font: 900 52px Inter, Arial, sans-serif; fill: #FFFFFF; letter-spacing: 0; }
+      .subtitle { font: 500 22px Inter, Arial, sans-serif; fill: #D9E3EF; }
+      .section { font: 900 23px Inter, Arial, sans-serif; fill: #111827; letter-spacing: .04em; text-transform: uppercase; }
+      .laneTitle { font: 900 20px Inter, Arial, sans-serif; fill: #111827; }
+      .boxTitle { font: 850 18px Inter, Arial, sans-serif; fill: #111827; }
+      .boxText { font: 500 14px Inter, Arial, sans-serif; fill: #526174; }
+      .small { font: 500 13px Inter, Arial, sans-serif; fill: #667085; }
+      .tiny { font: 800 11px Inter, Arial, sans-serif; fill: #667085; letter-spacing: .07em; text-transform: uppercase; }
+      .mono { font: 650 13px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; fill: #344054; }
+      .whiteText { fill: #FFFFFF; }
+      .shell { fill: #FFFFFF; stroke: #D7DEE8; stroke-width: 1.4; filter: url(#shadow); }
+      .zone { fill: #FFFFFF; stroke: #D7DEE8; stroke-width: 1.5; filter: url(#softShadow); }
+      .zoneSoft { fill: #F8FAFC; stroke: #D7DEE8; stroke-width: 1.4; }
+      .box { fill: #FFFFFF; stroke: #CBD5E1; stroke-width: 1.3; filter: url(#softShadow); }
+      .redBox { fill: #FFF5F6; stroke: #F5AFB6; stroke-width: 1.4; filter: url(#softShadow); }
+      .blueBox { fill: #F2F7FF; stroke: #AFC8F7; stroke-width: 1.4; filter: url(#softShadow); }
+      .greenBox { fill: #F0FBF7; stroke: #9EDBC6; stroke-width: 1.4; filter: url(#softShadow); }
+      .amberBox { fill: #FFF8E8; stroke: #F5D181; stroke-width: 1.4; filter: url(#softShadow); }
+      .violetBox { fill: #F6F2FF; stroke: #C7B8F3; stroke-width: 1.4; filter: url(#softShadow); }
+      .line { stroke: #1F2937; stroke-width: 3; fill: none; marker-end: url(#arrow); }
+      .redLine { stroke: #E84A5F; stroke-width: 3; fill: none; marker-end: url(#arrowRed); }
+      .blueLine { stroke: #2563EB; stroke-width: 3; fill: none; marker-end: url(#arrowBlue); }
+      .greenLine { stroke: #168A6A; stroke-width: 3; fill: none; marker-end: url(#arrowGreen); }
+      .amberLine { stroke: #B7791F; stroke-width: 3; fill: none; marker-end: url(#arrowAmber); }
+      .dash { stroke-dasharray: 10 9; }
+      .thin { stroke-width: 2.2; }
+      .pill { fill: #F8FAFC; stroke: #CBD5E1; stroke-width: 1.2; }
+    </style>
+  </defs>
+
+  <rect width="2400" height="1600" fill="url(#pageBg)"/>
+  <rect x="52" y="40" width="2296" height="1508" rx="34" class="shell"/>
+  <rect x="52" y="40" width="2296" height="12" fill="#111827"/>
+  <rect x="554" y="40" width="288" height="12" fill="#E84A5F"/>
+  <rect x="842" y="40" width="288" height="12" fill="#FFC857"/>
+  <rect x="1130" y="40" width="288" height="12" fill="#2BAE85"/>
+  <rect x="1418" y="40" width="288" height="12" fill="#2563EB"/>
+
+  <rect x="92" y="74" width="2216" height="126" rx="24" fill="url(#headerGrad)"/>
+  <text x="132" y="131" class="title">ProductPulse AI - Low Level Component Interaction Flow</text>
+  <text x="134" y="171" class="subtitle">Databricks Free Edition implementation: ingestion, Delta layers, embeddings, Lakebase retrieval, SQL metrics, memory, and Databricks App runtime</text>
+
+  <!-- Legend -->
+  <g transform="translate(1652 105)">
+    <rect x="0" y="0" width="616" height="64" rx="18" fill="#FFFFFF" opacity=".09"/>
+    <circle cx="28" cy="32" r="8" fill="#1F2937"/><text x="44" y="37" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="750" fill="#E5E7EB">data/control</text>
+    <circle cx="160" cy="32" r="8" fill="#E84A5F"/><text x="176" y="37" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="750" fill="#E5E7EB">embedding/RAG</text>
+    <circle cx="314" cy="32" r="8" fill="#2563EB"/><text x="330" y="37" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="750" fill="#E5E7EB">SQL metrics</text>
+    <circle cx="462" cy="32" r="8" fill="#168A6A"/><text x="478" y="37" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="750" fill="#E5E7EB">memory/app</text>
+  </g>
+
+  <!-- Zones -->
+  <rect x="92" y="238" width="360" height="1154" rx="24" class="zone"/>
+  <text x="122" y="285" class="section">Local Instructor Machine</text>
+
+  <rect x="492" y="238" width="980" height="1154" rx="24" class="zone"/>
+  <text x="522" y="285" class="section">Databricks Workspace And Lakehouse</text>
+
+  <rect x="1512" y="238" width="796" height="1154" rx="24" class="zone"/>
+  <text x="1542" y="285" class="section">Serving Runtime And Agent</text>
+
+  <!-- Local boxes -->
+  <rect x="122" y="326" width="300" height="92" rx="16" class="amberBox"/>
+  <text x="150" y="362" class="boxTitle">Project Codebase</text>
+  <text x="150" y="388" class="boxText">notebooks, src, app, SQL, data, diagrams</text>
+
+  <rect x="122" y="454" width="300" height="92" rx="16" class="greenBox"/>
+  <text x="150" y="490" class="boxTitle">Generate Class Data</text>
+  <text x="150" y="516" class="mono">scripts/generate_sample_data.py</text>
+
+  <rect x="122" y="582" width="300" height="116" rx="16" class="blueBox"/>
+  <text x="150" y="618" class="boxTitle">Deploy Bundle</text>
+  <text x="150" y="644" class="mono">databricks bundle deploy</text>
+  <text x="150" y="670" class="boxText">creates/updates workspace jobs</text>
+
+  <rect x="122" y="734" width="300" height="116" rx="16" class="redBox"/>
+  <text x="150" y="770" class="boxTitle">Upload Raw Data</text>
+  <text x="150" y="796" class="mono">databricks fs cp -r data/raw</text>
+  <text x="150" y="822" class="boxText">lands files in UC volume</text>
+
+  <rect x="122" y="886" width="300" height="116" rx="16" class="violetBox"/>
+  <text x="150" y="922" class="boxTitle">Databricks App Deploy</text>
+  <text x="150" y="948" class="mono">select bundle files folder</text>
+  <text x="150" y="974" class="boxText">uses app.yml and app/app.py</text>
+
+  <!-- Workspace bootstrap -->
+  <rect x="530" y="326" width="412" height="112" rx="18" class="blueBox"/>
+  <text x="560" y="362" class="boxTitle">Databricks Asset Bundle</text>
+  <text x="560" y="388" class="boxText">Reads databricks.yml</text>
+  <text x="560" y="414" class="boxText">Creates UC setup job and daily pipeline job</text>
+
+  <rect x="1008" y="326" width="420" height="112" rx="18" class="amberBox"/>
+  <text x="1038" y="362" class="boxTitle">Manual UC Setup Job</text>
+  <text x="1038" y="388" class="mono">00_setup_unity_catalog.py</text>
+  <text x="1038" y="414" class="boxText">catalog, schema, volume, Delta tables</text>
+
+  <rect x="530" y="500" width="898" height="116" rx="18" class="greenBox"/>
+  <text x="560" y="537" class="boxTitle">Unity Catalog Namespace</text>
+  <text x="560" y="564" class="mono">adidas_retail_ai.productpulse</text>
+  <text x="900" y="564" class="boxText">governed catalog, schema, volume, and managed Delta tables</text>
+  <text x="560" y="590" class="boxText">Raw landing path: /Volumes/adidas_retail_ai/productpulse/raw_data/raw</text>
+
+  <!-- Daily pipeline container -->
+  <rect x="530" y="676" width="898" height="448" rx="22" class="zoneSoft"/>
+  <text x="560" y="720" class="laneTitle">ProductPulse AI Daily Pipeline</text>
+  <text x="560" y="748" class="small">Serverless workflow tasks. Pipeline can be run manually for bootcamp demos or scheduled later.</text>
+
+  <rect x="560" y="790" width="190" height="118" rx="16" class="box"/>
+  <text x="584" y="826" class="tiny">Task 01</text>
+  <text x="584" y="854" class="boxTitle">Ingest Bronze</text>
+  <text x="584" y="880" class="boxText">CSV + JSONL + PDFs</text>
+  <text x="584" y="902" class="mono">bronze_* tables</text>
+
+  <rect x="806" y="790" width="190" height="118" rx="16" class="box"/>
+  <text x="830" y="826" class="tiny">Task 02</text>
+  <text x="830" y="854" class="boxTitle">Build Chunks</text>
+  <text x="830" y="880" class="boxText">reviews, tickets, PDF text</text>
+  <text x="830" y="902" class="mono">silver_document_chunks</text>
+
+  <rect x="1052" y="742" width="190" height="118" rx="16" class="blueBox"/>
+  <text x="1076" y="778" class="tiny">Task 04</text>
+  <text x="1076" y="806" class="boxTitle">Gold Metrics</text>
+  <text x="1076" y="832" class="boxText">daily aggregates</text>
+  <text x="1076" y="854" class="mono">gold_product_daily</text>
+
+  <rect x="1052" y="930" width="190" height="118" rx="16" class="redBox"/>
+  <text x="1076" y="966" class="tiny">Task 03</text>
+  <text x="1076" y="994" class="boxTitle">Embedding Sync</text>
+  <text x="1076" y="1020" class="boxText">Spark SQL ai_query</text>
+  <text x="1076" y="1042" class="mono">silver_embeddings</text>
+
+  <rect x="1282" y="930" width="116" height="118" rx="16" class="redBox"/>
+  <text x="1302" y="966" class="tiny">Upsert</text>
+  <text x="1302" y="994" class="boxTitle">Lakebase</text>
+  <text x="1302" y="1020" class="boxText">rag_chunks</text>
+  <text x="1302" y="1042" class="boxText">vector rows</text>
+
+  <!-- External serving stores inside right zone -->
+  <rect x="1542" y="326" width="326" height="116" rx="18" class="greenBox"/>
+  <text x="1572" y="362" class="boxTitle">Lakebase Postgres</text>
+  <text x="1572" y="388" class="boxText">Standard pgvector extension</text>
+  <text x="1572" y="414" class="mono">rag_chunks, conversation_memory</text>
+
+  <rect x="1928" y="326" width="326" height="116" rx="18" class="blueBox"/>
+  <text x="1958" y="362" class="boxTitle">Databricks SQL Warehouse</text>
+  <text x="1958" y="388" class="boxText">Queries Gold Delta tables</text>
+  <text x="1958" y="414" class="mono">DATABRICKS_SQL_HTTP_PATH</text>
+
+  <rect x="1542" y="500" width="326" height="116" rx="18" class="violetBox"/>
+  <text x="1572" y="536" class="boxTitle">Foundation Model APIs</text>
+  <text x="1572" y="562" class="boxText">Qwen embeddings and Llama chat</text>
+  <text x="1572" y="588" class="mono">ai_query + serving endpoints</text>
+
+  <rect x="1928" y="500" width="326" height="116" rx="18" class="amberBox"/>
+  <text x="1958" y="536" class="boxTitle">Databricks App Config</text>
+  <text x="1958" y="562" class="boxText">app.yml env and resource binding</text>
+  <text x="1958" y="588" class="mono">LAKEBASE_ENDPOINT valueFrom</text>
+
+  <!-- App runtime container -->
+  <rect x="1542" y="676" width="712" height="448" rx="22" class="zoneSoft"/>
+  <text x="1572" y="720" class="laneTitle">Databricks App Runtime</text>
+  <text x="1572" y="748" class="small">Streamlit UI calls a transparent Python agent planner. Each turn can use SQL-only, RAG-only, memory, or hybrid mode.</text>
+
+  <rect x="1572" y="790" width="180" height="110" rx="16" class="box"/>
+  <text x="1596" y="826" class="boxTitle">User Question</text>
+  <text x="1596" y="852" class="boxText">Product, support,</text>
+  <text x="1596" y="874" class="boxText">metrics, or memory</text>
+
+  <rect x="1806" y="790" width="190" height="110" rx="16" class="amberBox"/>
+  <text x="1830" y="826" class="boxTitle">Streamlit UI</text>
+  <text x="1830" y="852" class="mono">app/app.py</text>
+  <text x="1830" y="874" class="boxText">renders answer and trace</text>
+
+  <rect x="2050" y="790" width="174" height="110" rx="16" class="redBox"/>
+  <text x="2074" y="826" class="boxTitle">Agent Planner</text>
+  <text x="2074" y="852" class="mono">agent.py</text>
+  <text x="2074" y="874" class="boxText">chooses tools</text>
+
+  <rect x="1572" y="966" width="148" height="94" rx="16" class="greenBox"/>
+  <text x="1594" y="1002" class="boxTitle">Memory</text>
+  <text x="1594" y="1028" class="boxText">read/write turn</text>
+
+  <rect x="1752" y="966" width="148" height="94" rx="16" class="redBox"/>
+  <text x="1774" y="1002" class="boxTitle">RAG</text>
+  <text x="1774" y="1028" class="boxText">rewrite, embed, search</text>
+
+  <rect x="1932" y="966" width="148" height="94" rx="16" class="blueBox"/>
+  <text x="1954" y="1002" class="boxTitle">SQL Tool</text>
+  <text x="1954" y="1028" class="boxText">Gold metrics</text>
+
+  <rect x="2112" y="966" width="112" height="94" rx="16" class="violetBox"/>
+  <text x="2132" y="1002" class="boxTitle">Answer</text>
+  <text x="2132" y="1028" class="boxText">LLM + cites</text>
+
+  <!-- Config/Permissions bar -->
+  <rect x="530" y="1186" width="1724" height="144" rx="22" fill="#111827"/>
+  <text x="560" y="1230" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="900" fill="#FFFFFF">Configuration and permissions required at runtime</text>
+  <g transform="translate(560 1262)">
+    <rect x="0" y="0" width="360" height="44" rx="12" fill="#1F2937" stroke="#374151"/>
+    <text x="18" y="28" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="14" font-weight="700" fill="#D1D5DB">PRODUCTPULSE_CATALOG / SCHEMA</text>
+    <rect x="390" y="0" width="310" height="44" rx="12" fill="#1F2937" stroke="#374151"/>
+    <text x="408" y="28" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="14" font-weight="700" fill="#D1D5DB">Lakebase app resource</text>
+    <rect x="730" y="0" width="350" height="44" rx="12" fill="#1F2937" stroke="#374151"/>
+    <text x="748" y="28" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="14" font-weight="700" fill="#D1D5DB">DATABRICKS_SQL_HTTP_PATH</text>
+    <rect x="1110" y="0" width="284" height="44" rx="12" fill="#1F2937" stroke="#374151"/>
+    <text x="1128" y="28" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="14" font-weight="700" fill="#D1D5DB">UC grants and SQL access</text>
+    <rect x="1424" y="0" width="250" height="44" rx="12" fill="#1F2937" stroke="#374151"/>
+    <text x="1442" y="28" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="14" font-weight="700" fill="#D1D5DB">model endpoint access</text>
+  </g>
+
+  <!-- Footer -->
+  <rect x="92" y="1424" width="2216" height="78" rx="18" fill="#F8FAFC" stroke="#D7DEE8"/>
+  <text x="122" y="1463" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="900" fill="#111827">LLD story:</text>
+  <text x="240" y="1463" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="500" fill="#526174">bundle deploy creates jobs; UC setup creates governance objects; raw feeds land in UC volume; notebooks build Bronze, Silver, Gold, and embeddings; Lakebase powers vector retrieval and memory; the app agent routes each question across SQL, RAG, memory, and final LLM answer generation.</text>
+
+  <!-- Connectors: local to workspace -->
+  <path d="M422 640 C466 640 480 382 520 382" class="blueLine"/>
+  <path d="M422 792 C468 792 480 558 520 558" class="redLine"/>
+  <path d="M422 944 C474 944 480 558 520 558" class="greenLine dash thin"/>
+
+  <!-- Workspace internal connectors -->
+  <path d="M942 382 H998" class="line"/>
+  <path d="M1218 438 V490" class="amberLine"/>
+  <path d="M979 616 V666" class="line"/>
+  <path d="M750 849 H796" class="line"/>
+  <path d="M996 849 C1030 849 1022 801 1042 801" class="blueLine"/>
+  <path d="M996 849 C1030 849 1022 989 1042 989" class="redLine"/>
+  <path d="M1242 989 H1272" class="redLine"/>
+  <path d="M1398 989 C1475 989 1488 384 1532 384" class="redLine"/>
+
+  <!-- Gold to SQL warehouse -->
+  <path d="M1242 801 C1500 801 1660 384 1918 384" class="blueLine"/>
+
+  <!-- Foundation model calls -->
+  <path d="M1147 930 C1190 710 1430 560 1532 558" class="redLine dash thin"/>
+  <path d="M1826 966 C1740 830 1640 664 1648 626" class="redLine dash thin"/>
+  <path d="M2168 966 C2100 790 1800 655 1705 626" class="amberLine dash thin"/>
+
+  <!-- App runtime connectors -->
+  <path d="M1752 845 H1796" class="line"/>
+  <path d="M1996 845 H2040" class="line"/>
+  <path d="M2137 900 C2137 938 1646 938 1646 956" class="greenLine thin"/>
+  <path d="M2137 900 C2137 938 1826 938 1826 956" class="redLine thin"/>
+  <path d="M2137 900 C2137 938 2006 938 2006 956" class="blueLine thin"/>
+  <path d="M1720 1013 C1770 1086 2030 1088 2112 1042" class="greenLine dash thin"/>
+  <path d="M1900 1013 H1922" class="redLine thin"/>
+  <path d="M2080 1013 H2102" class="blueLine thin"/>
+
+  <!-- Runtime to stores -->
+  <path d="M1646 966 C1575 842 1565 560 1625 452" class="greenLine dash thin"/>
+  <path d="M1826 966 C1760 820 1680 600 1655 452" class="redLine dash thin"/>
+  <path d="M2006 966 C2020 808 2046 590 2045 452" class="blueLine dash thin"/>
+  <path d="M2137 900 C2180 810 2120 650 2088 626" class="amberLine dash thin"/>
+
+  <!-- App config to runtime -->
+  <path d="M2091 616 V666" class="amberLine"/>
+
+  <!-- Labels on key branches -->
+  <rect x="1254" y="770" width="172" height="32" rx="16" class="pill"/>
+  <text x="1273" y="791" class="tiny">SQL-only branch</text>
+  <rect x="1254" y="952" width="182" height="32" rx="16" class="pill"/>
+  <text x="1273" y="973" class="tiny">RAG sync branch</text>
+  <rect x="2190" y="905" width="78" height="32" rx="16" class="pill"/>
+  <text x="2207" y="926" class="tiny">trace</text>
+</svg>

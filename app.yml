@@ -1,0 +1,23 @@
+command: ["streamlit", "run", "app/app.py"]
+env:
+  - name: "PYTHONPATH"
+    value: "/app/python/source_code/src:/app/python/source_code"
+  - name: "STREAMLIT_GATHER_USAGE_STATS"
+    value: "false"
+  - name: "PRODUCTPULSE_CATALOG"
+    value: "adidas_retail_ai"
+  - name: "PRODUCTPULSE_SCHEMA"
+    value: "productpulse"
+  - name: "PRODUCTPULSE_EMBEDDING_MODEL"
+    value: "databricks-qwen3-embedding-0-6b"
+  - name: "PRODUCTPULSE_LLM_ENDPOINT"
+    value: "databricks-meta-llama-3-3-70b-instruct"
+  # Required only for structured metric questions in the agent UI.
+  # Copy this from SQL Warehouses > your warehouse > Connection details > HTTP path.
+  - name: "DATABRICKS_SQL_HTTP_PATH"
+    value: "/sql/1.0/warehouses/72b0f3201644dd7b"
+  # This assumes the Databricks App has a Lakebase database resource attached
+  # with resource key `postgres`. Databricks resolves this to the Lakebase
+  # Autoscaling endpoint path used for OAuth database credential generation.
+  - name: "LAKEBASE_ENDPOINT"
+    valueFrom: "postgres"

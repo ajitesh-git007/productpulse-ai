@@ -1,0 +1,514 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R 5 0 R 7 0 R 9 0 R 11 0 R 13 0 R 15 0 R 17 0 R 19 0 R 21 0 R] /Count 10 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 23 0 R >> >> /Contents 4 0 R >>
+endobj
+4 0 obj
+<< /Length 1955 >>
+stream
+BT
+/F1 10 Tf
+46 748 Td
+14 TL
+(Inventory-Aware Exchange Operations Guide) Tj
+T* () Tj
+T* (EXCHANGE PRINCIPLE) Tj
+T* (An exchange recommendation is only useful when inventory can support it. Support agents) Tj
+T* (should check available size, warehouse proximity, and replacement lead time before) Tj
+T* (recommending an exchange.) Tj
+T* () Tj
+T* (STOCK STATUS INTERPRETATION) Tj
+T* (Healthy stock supports exchange-first handling. Watch status requires agents to avoid) Tj
+T* (overpromising replacement dates. Low stock may require refund, alternative product) Tj
+T* (recommendation, or waitlist guidance.) Tj
+T* () Tj
+T* (LAUNCH-WEEK ALLOCATION) Tj
+T* (High-demand launch products should reserve a small percentage of inventory for service) Tj
+T* (recovery when sizing or warranty issues emerge early.) Tj
+T* () Tj
+T* (OPERATIONAL RISK) Tj
+T* (If a product has high exchange demand and low replacement stock, category teams should) Tj
+T* (decide whether to update content, slow promotion, or recommend adjacent models.) Tj
+T* () Tj
+T* (REPORTING) Tj
+T* (Daily reporting should combine return reason, ticket count, on-hand inventory, reserved) Tj
+T* (units, and exchange conversion by market.) Tj
+T* () Tj
+T* (FIELD EXAMPLES) Tj
+T* (For Inventory-Aware Exchange Operations Guide, field teams should separate isolated) Tj
+T* (preference language from repeated issue evidence. Example A: a verified customer reports the) Tj
+T* (issue after one or two normal uses, provides order context, and uses language that matches) Tj
+T* (other recent contacts. Treat this as meaningful early evidence. Example B: a customer) Tj
+T* (reports preference language without operational detail. Treat this as low-confidence but) Tj
+T* (useful for trend monitoring. Example C: several customers in the same market report the same) Tj
+T* (product id and issue phrase within three days. Treat this as a pattern requiring owner) Tj
+T* (review.) Tj
+T* () Tj
+T* (Page 1 of 10) Tj
+ET
+endstream
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 23 0 R >> >> /Contents 6 0 R >>
+endobj
+6 0 obj
+<< /Length 2461 >>
+stream
+BT
+/F1 10 Tf
+46 748 Td
+14 TL
+(REQUIRED INTAKE FIELDS) Tj
+T* (Required fields for Inventory-Aware Exchange Operations Guide workflows are product id,) Tj
+T* (order id when available, market, channel, customer segment, issue phrase, product condition,) Tj
+T* (preferred outcome, and evidence attachments when relevant. Footwear also needs activity) Tj
+T* (type, distance or match count, surface, sock or lace context, and usual size. Apparel also) Tj
+T* (needs wash method, care-label status, and photo evidence. Accessories and equipment need) Tj
+T* (number of uses and environment.) Tj
+T* () Tj
+T* (DECISION MATRIX) Tj
+T* (The decision matrix for Inventory-Aware Exchange Operations Guide prioritizes commercial) Tj
+T* (recovery and accurate customer outcome. Use exchange when the product likely fits the) Tj
+T* (customer after size or fit adjustment and inventory can support the exchange. Use refund) Tj
+T* (when replacement is not practical, the customer no longer wants the product, or policy) Tj
+T* (conditions require refund. Use warranty review when there is possible material or component) Tj
+T* (failure under approved use. Use content update when repeated evidence suggests the product) Tj
+T* (page did not set accurate expectations.) Tj
+T* () Tj
+T* (OWNER ROUTING) Tj
+T* (Owner routing for Inventory-Aware Exchange Operations Guide depends on the issue class and) Tj
+T* (customer impact. Support operations owns customer handling and macro updates. Product) Tj
+T* (content owns product-page language. Category management owns commercial impact and promotion) Tj
+T* (decisions. Product QA owns physical product investigation. Inventory operations owns stock) Tj
+T* (recovery, warehouse allocation, and exchange feasibility. Marketplace operations owns) Tj
+T* (partner listing alignment.) Tj
+T* () Tj
+T* (MEASUREMENT WINDOW) Tj
+T* (After an action related to Inventory-Aware Exchange Operations Guide is taken, monitor) Tj
+T* (seven-day movement in ticket count, return count, exchange rate, refund rate, average) Tj
+T* (rating, negative sentiment share, and inventory availability. If contacts decline but return) Tj
+T* (rate remains high, the issue may be deeper than content clarity. If exchange rate improves,) Tj
+T* (the intervention may be preserving demand while reducing refund impact.) Tj
+T* () Tj
+T* (MARKET VARIATION) Tj
+T* (Market review for Inventory-Aware Exchange Operations Guide should compare language and) Tj
+T* (Page 2 of 10) Tj
+ET
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 23 0 R >> >> /Contents 8 0 R >>
+endobj
+8 0 obj
+<< /Length 2428 >>
+stream
+BT
+/F1 10 Tf
+46 748 Td
+14 TL
+(outcome by US, IN, UK, DE, FR, JP, and AU. A sizing issue concentrated in one market may) Tj
+T* (reflect local size conversion or marketplace copy. A warranty issue appearing across markets) Tj
+T* (is more likely a product or usage-pattern concern. Channel splits matter because partner) Tj
+T* (listings may omit fit or care guidance that is present on owned digital channels.) Tj
+T* () Tj
+T* (COMMERCIAL IMPACT READOUT) Tj
+T* (The commercial readout for Inventory-Aware Exchange Operations Guide should combine units) Tj
+T* (sold, order count, refund amount, exchange count, current stock position, and negative) Tj
+T* (sentiment share. High order volume with moderate complaint rate can still represent a large) Tj
+T* (service workload. Low order volume with severe complaints may require quality review because) Tj
+T* (early adopters often influence launch reputation.) Tj
+T* () Tj
+T* (SUPPORT MANAGER REVIEW) Tj
+T* (Support managers reviewing Inventory-Aware Exchange Operations Guide should check whether) Tj
+T* (agents are collecting enough context before choosing outcome. Missing surface details,) Tj
+T* (missing wash details, or missing fit history can make a valid customer issue look ambiguous.) Tj
+T* (Managers should coach agents to document the customer language exactly because repeated) Tj
+T* (phrasing is often the fastest path to root-cause detection.) Tj
+T* () Tj
+T* (PRODUCT TEAM REVIEW) Tj
+T* (Product teams reviewing Inventory-Aware Exchange Operations Guide should compare intended) Tj
+T* (design against customer expectation. If the product behaves as designed but customers are) Tj
+T* (surprised, content guidance may be the fix. If the product fails under intended use, QA) Tj
+T* (review is needed. If customers buy the product for an unintended use case, category and) Tj
+T* (content teams should decide whether to redirect demand or change messaging.) Tj
+T* () Tj
+T* (OPERATIONAL SCENARIO) Tj
+T* (Scenario for Inventory-Aware Exchange Operations Guide: a spike appears on day three, with) Tj
+T* (rising ticket count, repeated issue phrases, and a return rate moving faster than order) Tj
+T* (growth. The first response is not a broad recall or blanket refund. The first response is) Tj
+T* (evidence consolidation, owner routing, inventory check, and a narrowly scoped customer-) Tj
+T* (handling recommendation.) Tj
+T* () Tj
+T* (FIELD EXAMPLES) Tj
+T* (Page 3 of 10) Tj
+ET
+endstream
+endobj
+9 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 23 0 R >> >> /Contents 10 0 R >>
+endobj
+10 0 obj
+<< /Length 2538 >>
+stream
+BT
+/F1 10 Tf
+46 748 Td
+14 TL
+(For Inventory-Aware Exchange Operations Guide, field teams should separate isolated) Tj
+T* (preference language from repeated issue evidence. Example A: a verified customer reports the) Tj
+T* (issue after one or two normal uses, provides order context, and uses language that matches) Tj
+T* (other recent contacts. Treat this as meaningful early evidence. Example B: a customer) Tj
+T* (reports preference language without operational detail. Treat this as low-confidence but) Tj
+T* (useful for trend monitoring. Example C: several customers in the same market report the same) Tj
+T* (product id and issue phrase within three days. Treat this as a pattern requiring owner) Tj
+T* (review.) Tj
+T* () Tj
+T* (REQUIRED INTAKE FIELDS) Tj
+T* (Required fields for Inventory-Aware Exchange Operations Guide workflows are product id,) Tj
+T* (order id when available, market, channel, customer segment, issue phrase, product condition,) Tj
+T* (preferred outcome, and evidence attachments when relevant. Footwear also needs activity) Tj
+T* (type, distance or match count, surface, sock or lace context, and usual size. Apparel also) Tj
+T* (needs wash method, care-label status, and photo evidence. Accessories and equipment need) Tj
+T* (number of uses and environment.) Tj
+T* () Tj
+T* (DECISION MATRIX) Tj
+T* (The decision matrix for Inventory-Aware Exchange Operations Guide prioritizes commercial) Tj
+T* (recovery and accurate customer outcome. Use exchange when the product likely fits the) Tj
+T* (customer after size or fit adjustment and inventory can support the exchange. Use refund) Tj
+T* (when replacement is not practical, the customer no longer wants the product, or policy) Tj
+T* (conditions require refund. Use warranty review when there is possible material or component) Tj
+T* (failure under approved use. Use content update when repeated evidence suggests the product) Tj
+T* (page did not set accurate expectations.) Tj
+T* () Tj
+T* (OWNER ROUTING) Tj
+T* (Owner routing for Inventory-Aware Exchange Operations Guide depends on the issue class and) Tj
+T* (customer impact. Support operations owns customer handling and macro updates. Product) Tj
+T* (content owns product-page language. Category management owns commercial impact and promotion) Tj
+T* (decisions. Product QA owns physical product investigation. Inventory operations owns stock) Tj
+T* (recovery, warehouse allocation, and exchange feasibility. Marketplace operations owns) Tj
+T* (partner listing alignment.) Tj
+T* () Tj
+T* (Page 4 of 10) Tj
+ET
+endstream
+endobj
+11 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 23 0 R >> >> /Contents 12 0 R >>
+endobj
+12 0 obj
+<< /Length 2563 >>
+stream
+BT
+/F1 10 Tf
+46 748 Td
+14 TL
+(MEASUREMENT WINDOW) Tj
+T* (After an action related to Inventory-Aware Exchange Operations Guide is taken, monitor) Tj
+T* (seven-day movement in ticket count, return count, exchange rate, refund rate, average) Tj
+T* (rating, negative sentiment share, and inventory availability. If contacts decline but return) Tj
+T* (rate remains high, the issue may be deeper than content clarity. If exchange rate improves,) Tj
+T* (the intervention may be preserving demand while reducing refund impact.) Tj
+T* () Tj
+T* (MARKET VARIATION) Tj
+T* (Market review for Inventory-Aware Exchange Operations Guide should compare language and) Tj
+T* (outcome by US, IN, UK, DE, FR, JP, and AU. A sizing issue concentrated in one market may) Tj
+T* (reflect local size conversion or marketplace copy. A warranty issue appearing across markets) Tj
+T* (is more likely a product or usage-pattern concern. Channel splits matter because partner) Tj
+T* (listings may omit fit or care guidance that is present on owned digital channels.) Tj
+T* () Tj
+T* (COMMERCIAL IMPACT READOUT) Tj
+T* (The commercial readout for Inventory-Aware Exchange Operations Guide should combine units) Tj
+T* (sold, order count, refund amount, exchange count, current stock position, and negative) Tj
+T* (sentiment share. High order volume with moderate complaint rate can still represent a large) Tj
+T* (service workload. Low order volume with severe complaints may require quality review because) Tj
+T* (early adopters often influence launch reputation.) Tj
+T* () Tj
+T* (SUPPORT MANAGER REVIEW) Tj
+T* (Support managers reviewing Inventory-Aware Exchange Operations Guide should check whether) Tj
+T* (agents are collecting enough context before choosing outcome. Missing surface details,) Tj
+T* (missing wash details, or missing fit history can make a valid customer issue look ambiguous.) Tj
+T* (Managers should coach agents to document the customer language exactly because repeated) Tj
+T* (phrasing is often the fastest path to root-cause detection.) Tj
+T* () Tj
+T* (PRODUCT TEAM REVIEW) Tj
+T* (Product teams reviewing Inventory-Aware Exchange Operations Guide should compare intended) Tj
+T* (design against customer expectation. If the product behaves as designed but customers are) Tj
+T* (surprised, content guidance may be the fix. If the product fails under intended use, QA) Tj
+T* (review is needed. If customers buy the product for an unintended use case, category and) Tj
+T* (content teams should decide whether to redirect demand or change messaging.) Tj
+T* (Page 5 of 10) Tj
+ET
+endstream
+endobj
+13 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 23 0 R >> >> /Contents 14 0 R >>
+endobj
+14 0 obj
+<< /Length 2468 >>
+stream
+BT
+/F1 10 Tf
+46 748 Td
+14 TL
+() Tj
+T* (OPERATIONAL SCENARIO) Tj
+T* (Scenario for Inventory-Aware Exchange Operations Guide: a spike appears on day three, with) Tj
+T* (rising ticket count, repeated issue phrases, and a return rate moving faster than order) Tj
+T* (growth. The first response is not a broad recall or blanket refund. The first response is) Tj
+T* (evidence consolidation, owner routing, inventory check, and a narrowly scoped customer-) Tj
+T* (handling recommendation.) Tj
+T* () Tj
+T* (FIELD EXAMPLES) Tj
+T* (For Inventory-Aware Exchange Operations Guide, field teams should separate isolated) Tj
+T* (preference language from repeated issue evidence. Example A: a verified customer reports the) Tj
+T* (issue after one or two normal uses, provides order context, and uses language that matches) Tj
+T* (other recent contacts. Treat this as meaningful early evidence. Example B: a customer) Tj
+T* (reports preference language without operational detail. Treat this as low-confidence but) Tj
+T* (useful for trend monitoring. Example C: several customers in the same market report the same) Tj
+T* (product id and issue phrase within three days. Treat this as a pattern requiring owner) Tj
+T* (review.) Tj
+T* () Tj
+T* (REQUIRED INTAKE FIELDS) Tj
+T* (Required fields for Inventory-Aware Exchange Operations Guide workflows are product id,) Tj
+T* (order id when available, market, channel, customer segment, issue phrase, product condition,) Tj
+T* (preferred outcome, and evidence attachments when relevant. Footwear also needs activity) Tj
+T* (type, distance or match count, surface, sock or lace context, and usual size. Apparel also) Tj
+T* (needs wash method, care-label status, and photo evidence. Accessories and equipment need) Tj
+T* (number of uses and environment.) Tj
+T* () Tj
+T* (DECISION MATRIX) Tj
+T* (The decision matrix for Inventory-Aware Exchange Operations Guide prioritizes commercial) Tj
+T* (recovery and accurate customer outcome. Use exchange when the product likely fits the) Tj
+T* (customer after size or fit adjustment and inventory can support the exchange. Use refund) Tj
+T* (when replacement is not practical, the customer no longer wants the product, or policy) Tj
+T* (conditions require refund. Use warranty review when there is possible material or component) Tj
+T* (failure under approved use. Use content update when repeated evidence suggests the product) Tj
+T* (page did not set accurate expectations.) Tj
+T* (Page 6 of 10) Tj
+ET
+endstream
+endobj
+15 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 23 0 R >> >> /Contents 16 0 R >>
+endobj
+16 0 obj
+<< /Length 2452 >>
+stream
+BT
+/F1 10 Tf
+46 748 Td
+14 TL
+() Tj
+T* (OWNER ROUTING) Tj
+T* (Owner routing for Inventory-Aware Exchange Operations Guide depends on the issue class and) Tj
+T* (customer impact. Support operations owns customer handling and macro updates. Product) Tj
+T* (content owns product-page language. Category management owns commercial impact and promotion) Tj
+T* (decisions. Product QA owns physical product investigation. Inventory operations owns stock) Tj
+T* (recovery, warehouse allocation, and exchange feasibility. Marketplace operations owns) Tj
+T* (partner listing alignment.) Tj
+T* () Tj
+T* (MEASUREMENT WINDOW) Tj
+T* (After an action related to Inventory-Aware Exchange Operations Guide is taken, monitor) Tj
+T* (seven-day movement in ticket count, return count, exchange rate, refund rate, average) Tj
+T* (rating, negative sentiment share, and inventory availability. If contacts decline but return) Tj
+T* (rate remains high, the issue may be deeper than content clarity. If exchange rate improves,) Tj
+T* (the intervention may be preserving demand while reducing refund impact.) Tj
+T* () Tj
+T* (MARKET VARIATION) Tj
+T* (Market review for Inventory-Aware Exchange Operations Guide should compare language and) Tj
+T* (outcome by US, IN, UK, DE, FR, JP, and AU. A sizing issue concentrated in one market may) Tj
+T* (reflect local size conversion or marketplace copy. A warranty issue appearing across markets) Tj
+T* (is more likely a product or usage-pattern concern. Channel splits matter because partner) Tj
+T* (listings may omit fit or care guidance that is present on owned digital channels.) Tj
+T* () Tj
+T* (COMMERCIAL IMPACT READOUT) Tj
+T* (The commercial readout for Inventory-Aware Exchange Operations Guide should combine units) Tj
+T* (sold, order count, refund amount, exchange count, current stock position, and negative) Tj
+T* (sentiment share. High order volume with moderate complaint rate can still represent a large) Tj
+T* (service workload. Low order volume with severe complaints may require quality review because) Tj
+T* (early adopters often influence launch reputation.) Tj
+T* () Tj
+T* (SUPPORT MANAGER REVIEW) Tj
+T* (Support managers reviewing Inventory-Aware Exchange Operations Guide should check whether) Tj
+T* (agents are collecting enough context before choosing outcome. Missing surface details,) Tj
+T* (missing wash details, or missing fit history can make a valid customer issue look ambiguous.) Tj
+T* (Page 7 of 10) Tj
+ET
+endstream
+endobj
+17 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 23 0 R >> >> /Contents 18 0 R >>
+endobj
+18 0 obj
+<< /Length 2478 >>
+stream
+BT
+/F1 10 Tf
+46 748 Td
+14 TL
+(Managers should coach agents to document the customer language exactly because repeated) Tj
+T* (phrasing is often the fastest path to root-cause detection.) Tj
+T* () Tj
+T* (PRODUCT TEAM REVIEW) Tj
+T* (Product teams reviewing Inventory-Aware Exchange Operations Guide should compare intended) Tj
+T* (design against customer expectation. If the product behaves as designed but customers are) Tj
+T* (surprised, content guidance may be the fix. If the product fails under intended use, QA) Tj
+T* (review is needed. If customers buy the product for an unintended use case, category and) Tj
+T* (content teams should decide whether to redirect demand or change messaging.) Tj
+T* () Tj
+T* (OPERATIONAL SCENARIO) Tj
+T* (Scenario for Inventory-Aware Exchange Operations Guide: a spike appears on day three, with) Tj
+T* (rising ticket count, repeated issue phrases, and a return rate moving faster than order) Tj
+T* (growth. The first response is not a broad recall or blanket refund. The first response is) Tj
+T* (evidence consolidation, owner routing, inventory check, and a narrowly scoped customer-) Tj
+T* (handling recommendation.) Tj
+T* () Tj
+T* (FIELD EXAMPLES) Tj
+T* (For Inventory-Aware Exchange Operations Guide, field teams should separate isolated) Tj
+T* (preference language from repeated issue evidence. Example A: a verified customer reports the) Tj
+T* (issue after one or two normal uses, provides order context, and uses language that matches) Tj
+T* (other recent contacts. Treat this as meaningful early evidence. Example B: a customer) Tj
+T* (reports preference language without operational detail. Treat this as low-confidence but) Tj
+T* (useful for trend monitoring. Example C: several customers in the same market report the same) Tj
+T* (product id and issue phrase within three days. Treat this as a pattern requiring owner) Tj
+T* (review.) Tj
+T* () Tj
+T* (REQUIRED INTAKE FIELDS) Tj
+T* (Required fields for Inventory-Aware Exchange Operations Guide workflows are product id,) Tj
+T* (order id when available, market, channel, customer segment, issue phrase, product condition,) Tj
+T* (preferred outcome, and evidence attachments when relevant. Footwear also needs activity) Tj
+T* (type, distance or match count, surface, sock or lace context, and usual size. Apparel also) Tj
+T* (needs wash method, care-label status, and photo evidence. Accessories and equipment need) Tj
+T* (number of uses and environment.) Tj
+T* (Page 8 of 10) Tj
+ET
+endstream
+endobj
+19 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 23 0 R >> >> /Contents 20 0 R >>
+endobj
+20 0 obj
+<< /Length 2427 >>
+stream
+BT
+/F1 10 Tf
+46 748 Td
+14 TL
+() Tj
+T* (DECISION MATRIX) Tj
+T* (The decision matrix for Inventory-Aware Exchange Operations Guide prioritizes commercial) Tj
+T* (recovery and accurate customer outcome. Use exchange when the product likely fits the) Tj
+T* (customer after size or fit adjustment and inventory can support the exchange. Use refund) Tj
+T* (when replacement is not practical, the customer no longer wants the product, or policy) Tj
+T* (conditions require refund. Use warranty review when there is possible material or component) Tj
+T* (failure under approved use. Use content update when repeated evidence suggests the product) Tj
+T* (page did not set accurate expectations.) Tj
+T* () Tj
+T* (OWNER ROUTING) Tj
+T* (Owner routing for Inventory-Aware Exchange Operations Guide depends on the issue class and) Tj
+T* (customer impact. Support operations owns customer handling and macro updates. Product) Tj
+T* (content owns product-page language. Category management owns commercial impact and promotion) Tj
+T* (decisions. Product QA owns physical product investigation. Inventory operations owns stock) Tj
+T* (recovery, warehouse allocation, and exchange feasibility. Marketplace operations owns) Tj
+T* (partner listing alignment.) Tj
+T* () Tj
+T* (MEASUREMENT WINDOW) Tj
+T* (After an action related to Inventory-Aware Exchange Operations Guide is taken, monitor) Tj
+T* (seven-day movement in ticket count, return count, exchange rate, refund rate, average) Tj
+T* (rating, negative sentiment share, and inventory availability. If contacts decline but return) Tj
+T* (rate remains high, the issue may be deeper than content clarity. If exchange rate improves,) Tj
+T* (the intervention may be preserving demand while reducing refund impact.) Tj
+T* () Tj
+T* (MARKET VARIATION) Tj
+T* (Market review for Inventory-Aware Exchange Operations Guide should compare language and) Tj
+T* (outcome by US, IN, UK, DE, FR, JP, and AU. A sizing issue concentrated in one market may) Tj
+T* (reflect local size conversion or marketplace copy. A warranty issue appearing across markets) Tj
+T* (is more likely a product or usage-pattern concern. Channel splits matter because partner) Tj
+T* (listings may omit fit or care guidance that is present on owned digital channels.) Tj
+T* () Tj
+T* (COMMERCIAL IMPACT READOUT) Tj
+T* (The commercial readout for Inventory-Aware Exchange Operations Guide should combine units) Tj
+T* (Page 9 of 10) Tj
+ET
+endstream
+endobj
+21 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 23 0 R >> >> /Contents 22 0 R >>
+endobj
+22 0 obj
+<< /Length 1880 >>
+stream
+BT
+/F1 10 Tf
+46 748 Td
+14 TL
+(sold, order count, refund amount, exchange count, current stock position, and negative) Tj
+T* (sentiment share. High order volume with moderate complaint rate can still represent a large) Tj
+T* (service workload. Low order volume with severe complaints may require quality review because) Tj
+T* (early adopters often influence launch reputation.) Tj
+T* () Tj
+T* (SUPPORT MANAGER REVIEW) Tj
+T* (Support managers reviewing Inventory-Aware Exchange Operations Guide should check whether) Tj
+T* (agents are collecting enough context before choosing outcome. Missing surface details,) Tj
+T* (missing wash details, or missing fit history can make a valid customer issue look ambiguous.) Tj
+T* (Managers should coach agents to document the customer language exactly because repeated) Tj
+T* (phrasing is often the fastest path to root-cause detection.) Tj
+T* () Tj
+T* (PRODUCT TEAM REVIEW) Tj
+T* (Product teams reviewing Inventory-Aware Exchange Operations Guide should compare intended) Tj
+T* (design against customer expectation. If the product behaves as designed but customers are) Tj
+T* (surprised, content guidance may be the fix. If the product fails under intended use, QA) Tj
+T* (review is needed. If customers buy the product for an unintended use case, category and) Tj
+T* (content teams should decide whether to redirect demand or change messaging.) Tj
+T* () Tj
+T* (OPERATIONAL SCENARIO) Tj
+T* (Scenario for Inventory-Aware Exchange Operations Guide: a spike appears on day three, with) Tj
+T* (rising ticket count, repeated issue phrases, and a return rate moving faster than order) Tj
+T* (growth. The first response is not a broad recall or blanket refund. The first response is) Tj
+T* (evidence consolidation, owner routing, inventory check, and a narrowly scoped customer-) Tj
+T* (handling recommendation.) Tj
+T* () Tj
+T* (Page 10 of 10) Tj
+ET
+endstream
+endobj
+23 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+xref
+0 24
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000182 00000 n 
+0000000309 00000 n 
+0000002316 00000 n 
+0000002443 00000 n 
+0000004956 00000 n 
+0000005083 00000 n 
+0000007563 00000 n 
+0000007691 00000 n 
+0000010282 00000 n 
+0000010411 00000 n 
+0000013027 00000 n 
+0000013156 00000 n 
+0000015677 00000 n 
+0000015806 00000 n 
+0000018311 00000 n 
+0000018440 00000 n 
+0000020971 00000 n 
+0000021100 00000 n 
+0000023580 00000 n 
+0000023709 00000 n 
+0000025642 00000 n 
+trailer
+<< /Size 24 /Root 1 0 R >>
+startxref
+25713
+%%EOF

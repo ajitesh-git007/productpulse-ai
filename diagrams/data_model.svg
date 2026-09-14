@@ -1,0 +1,129 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900" role="img" aria-labelledby="title desc">
+  <title id="title">ProductPulse AI Data Model</title>
+  <desc id="desc">Bronze, silver, gold, and Lakebase tables used by ProductPulse AI.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M2,2 L10,6 L2,10 Z" fill="#334b5f"/>
+    </marker>
+    <filter id="shadow" x="-15%" y="-15%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="8" stdDeviation="9" flood-color="#0f2435" flood-opacity="0.12"/>
+    </filter>
+    <style>
+      .bg{fill:#f8faf6}
+      .title{font-family:Inter,Arial,sans-serif;font-size:32px;font-weight:800;fill:#18324a}
+      .sub{font-family:Inter,Arial,sans-serif;font-size:18px;fill:#536170}
+      .entity{fill:#ffffff;stroke:#9aaec0;stroke-width:2;filter:url(#shadow)}
+      .head{font-family:Inter,Arial,sans-serif;font-size:20px;font-weight:800;fill:#ffffff}
+      .field{font-family:Inter,Arial,sans-serif;font-size:15px;fill:#293c4e}
+      .key{font-weight:800;fill:#11283b}
+      .bronze{fill:#426b8f}
+      .silver{fill:#52865d}
+      .gold{fill:#b1842f}
+      .lakebase{fill:#b95349}
+      .line{stroke:#334b5f;stroke-width:3;fill:none;marker-end:url(#arrow)}
+    </style>
+  </defs>
+  <rect width="1400" height="900" class="bg"/>
+  <text x="70" y="70" class="title">ProductPulse AI Data Model</text>
+  <text x="70" y="102" class="sub">Governed Delta tables feed Lakebase retrieval and memory</text>
+
+  <g transform="translate(70 160)">
+    <rect width="285" height="180" rx="16" class="entity"/>
+    <rect width="285" height="46" rx="16" class="bronze"/>
+    <text x="22" y="30" class="head">bronze_feedback</text>
+    <text x="22" y="76" class="field key">PK review_id</text>
+    <text x="22" y="103" class="field">reviews + support tickets</text>
+    <text x="22" y="130" class="field">sentiment, issue, priority</text>
+    <text x="22" y="157" class="field">customer text for RAG</text>
+  </g>
+
+  <g transform="translate(70 380)">
+    <rect width="285" height="180" rx="16" class="entity"/>
+    <rect width="285" height="46" rx="16" class="bronze"/>
+    <text x="22" y="30" class="head">bronze_operations</text>
+    <text x="22" y="76" class="field key">orders + returns + inventory</text>
+    <text x="22" y="103" class="field">order_id, return_reason</text>
+    <text x="22" y="130" class="field">units_sold, return_rate</text>
+    <text x="22" y="157" class="field">stock_status, warehouse</text>
+  </g>
+
+  <g transform="translate(70 600)">
+    <rect width="285" height="150" rx="16" class="entity"/>
+    <rect width="285" height="46" rx="16" class="bronze"/>
+    <text x="22" y="30" class="head">bronze_docs</text>
+    <text x="22" y="76" class="field key">PDF manifest + extracted text</text>
+    <text x="22" y="103" class="field">policy, SOP, QA, briefs</text>
+    <text x="22" y="130" class="field">file_name, page_count</text>
+  </g>
+
+  <g transform="translate(420 220)">
+    <rect width="310" height="210" rx="16" class="entity"/>
+    <rect width="310" height="46" rx="16" class="silver"/>
+    <text x="22" y="30" class="head">silver_document_chunks</text>
+    <text x="22" y="76" class="field key">PK chunk_id</text>
+    <text x="22" y="103" class="field">source_id, source_type</text>
+    <text x="22" y="130" class="field">product_id, event_date</text>
+    <text x="22" y="157" class="field">title, chunk_text</text>
+    <text x="22" y="184" class="field">metadata_json, updated_at</text>
+  </g>
+
+  <g transform="translate(420 505)">
+    <rect width="310" height="190" rx="16" class="entity"/>
+    <rect width="310" height="46" rx="16" class="silver"/>
+    <text x="22" y="30" class="head">silver_embeddings</text>
+    <text x="22" y="76" class="field key">PK chunk_id</text>
+    <text x="22" y="103" class="field">embedding ARRAY&lt;DOUBLE&gt;</text>
+    <text x="22" y="130" class="field">same chunk metadata</text>
+    <text x="22" y="157" class="field">embedded_at</text>
+  </g>
+
+  <g transform="translate(800 160)">
+    <rect width="290" height="190" rx="16" class="entity"/>
+    <rect width="290" height="46" rx="16" class="gold"/>
+    <text x="22" y="30" class="head">gold_product_daily</text>
+    <text x="22" y="76" class="field key">event_date + product_id</text>
+    <text x="22" y="103" class="field">orders, units, returns</text>
+    <text x="22" y="130" class="field">avg_rating, negative_count</text>
+    <text x="22" y="157" class="field">return_rate, stock, top_issue</text>
+  </g>
+
+  <g transform="translate(800 405)">
+    <rect width="290" height="170" rx="16" class="entity"/>
+    <rect width="290" height="46" rx="16" class="gold"/>
+    <text x="22" y="30" class="head">gold_issue_daily</text>
+    <text x="22" y="76" class="field key">date + product + issue</text>
+    <text x="22" y="103" class="field">feedback_count</text>
+    <text x="22" y="130" class="field">negative_count, high_priority</text>
+  </g>
+
+  <g transform="translate(1140 235)">
+    <rect width="210" height="200" rx="16" class="entity"/>
+    <rect width="210" height="46" rx="16" class="lakebase"/>
+    <text x="22" y="30" class="head">rag_chunks</text>
+    <text x="22" y="76" class="field key">PK chunk_id</text>
+    <text x="22" y="103" class="field">VECTOR(1024)</text>
+    <text x="22" y="130" class="field">metadata JSONB</text>
+    <text x="22" y="157" class="field">ANN index</text>
+  </g>
+
+  <g transform="translate(1140 510)">
+    <rect width="210" height="160" rx="16" class="entity"/>
+    <rect width="210" height="46" rx="16" class="lakebase"/>
+    <text x="22" y="30" class="head">memory</text>
+    <text x="22" y="76" class="field key">memory_id</text>
+    <text x="22" y="103" class="field">session_id</text>
+    <text x="22" y="130" class="field">memory_text JSONB</text>
+  </g>
+
+  <path class="line" d="M355 250 C390 250 385 285 420 305"/>
+  <path class="line" d="M355 470 C390 470 385 355 420 340"/>
+  <path class="line" d="M355 675 C400 675 390 405 420 380"/>
+  <path class="line" d="M575 430 L575 505"/>
+  <path class="line" d="M730 610 C920 610 960 372 1140 335"/>
+  <path class="line" d="M730 325 C770 315 770 255 800 245"/>
+  <path class="line" d="M730 355 C780 375 780 460 800 490"/>
+  <path class="line" d="M1090 255 C1120 255 1115 302 1140 315"/>
+  <path class="line" d="M1090 490 C1120 500 1115 570 1140 590"/>
+
+  <text x="72" y="820" class="sub">Teaching point: raw events stay auditable in bronze, RAG chunks are governed in Delta, Lakebase stores low-latency vectors and memory.</text>
+</svg>

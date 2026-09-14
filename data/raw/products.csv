@@ -1,0 +1,25 @@
+product_id,product_name,category,gender,launch_date,price_usd,fit_profile,known_risk_theme
+RUN-ULTRA-01,Adizero Ultra Sprint,Running Shoes,Unisex,2026-08-01,159.0,race fit,narrow toe box
+RUN-COMFORT-02,Cloudfoam Tempo,Running Shoes,Women,2026-07-20,92.0,comfort fit,warm upper
+TRN-HOOD-03,Train Essentials Hoodie,Training Apparel,Men,2026-07-12,68.0,regular fit,color fade
+SOC-CLEAT-04,Predator Edge League FG,Football Boots,Unisex,2026-08-05,119.0,locked heel,stud crack
+BAG-DUFFEL-05,Tiro League Duffel,Accessories,Unisex,2026-06-29,45.0,one size,strap slip
+RUN-TRAIL-06,Terrex Ridge Flow,Trail Running Shoes,Men,2026-08-10,132.0,protective trail fit,mud grip
+YGA-TIGHT-07,Yoga Studio 7/8 Tight,Training Apparel,Women,2026-07-28,74.0,compression fit,waistband roll
+CAP-RUN-08,AeroReady Running Cap,Accessories,Unisex,2026-08-03,28.0,adjustable,sweat stain
+RUN-ROAD-09,Supernova Rise Road,Running Shoes,Men,2026-07-18,118.0,neutral road fit,outsole squeak
+APP-TEE-10,Own The Run Tee,Training Apparel,Women,2026-07-02,36.0,regular fit,seam twist
+BAG-BACK-11,Urban Utility Backpack,Accessories,Unisex,2026-06-15,88.0,one size,zipper snag
+SOC-BALL-12,UCL Training Ball,Football Equipment,Unisex,2026-07-30,32.0,size 5,air retention
+TRN-SHORT-13,Designed 4 Training Short,Training Apparel,Men,2026-07-08,42.0,athletic fit,liner chafe
+RUN-SOCK-14,Performance Cushion Sock 3 Pack,Accessories,Unisex,2026-07-11,18.0,compression cuff,elastic wear
+OUT-JKT-15,Rain.RDY City Jacket,Outerwear,Women,2026-08-08,148.0,regular fit,zipper leak
+TRN-BRA-16,PowerImpact Training Bra,Training Apparel,Women,2026-07-24,54.0,high support,band tight
+KID-SHOE-17,Duramo Kids Trainer,Kids Footwear,Kids,2026-07-16,52.0,kids regular,velcro wear
+RUN-SANDAL-18,Adilette Comfort Slide,Slides,Unisex,2026-06-20,35.0,relaxed fit,strap rub
+GYM-MAT-19,Training Grip Mat,Training Equipment,Unisex,2026-07-19,48.0,one size,surface peel
+SWM-SHORT-20,3-Stripes Swim Short,Swim Apparel,Men,2026-07-01,40.0,regular fit,chlorine fade
+OUT-FLEECE-21,Terrex Grid Fleece,Outdoor Apparel,Men,2026-08-06,96.0,layering fit,pilling
+SOC-GLOVE-22,Predator Training Glove,Football Equipment,Unisex,2026-07-26,38.0,snug palm,grip wear
+RUN-VEST-23,Marathon Hydration Vest,Running Accessories,Unisex,2026-08-04,110.0,adjustable,bottle bounce
+TRN-SHOE-24,Dropset Strength Trainer,Training Shoes,Men,2026-07-22,128.0,stable lifting fit,heel slip

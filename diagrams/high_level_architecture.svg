@@ -1,0 +1,218 @@
+<svg width="1800" height="1120" viewBox="0 0 1800 1120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1800" y2="1120" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#F7FAFC"/>
+      <stop offset="0.52" stop-color="#EEF4F8"/>
+      <stop offset="1" stop-color="#F8F5EF"/>
+    </linearGradient>
+    <linearGradient id="lakehouse" x1="190" y1="222" x2="1230" y2="762" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#F1F6F9"/>
+    </linearGradient>
+    <linearGradient id="appPanel" x1="1235" y1="214" x2="1662" y2="885" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#F8FAFB"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#0F172A" flood-opacity="0.12"/>
+    </filter>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#0F172A" flood-opacity="0.09"/>
+    </filter>
+    <marker id="arrowDark" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="strokeWidth">
+      <path d="M2 2 L10 6 L2 10 Z" fill="#1F2937"/>
+    </marker>
+    <marker id="arrowRed" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="strokeWidth">
+      <path d="M2 2 L10 6 L2 10 Z" fill="#E84A5F"/>
+    </marker>
+    <marker id="arrowGreen" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="strokeWidth">
+      <path d="M2 2 L10 6 L2 10 Z" fill="#168A6A"/>
+    </marker>
+    <style>
+      .title { font: 800 46px Inter, Arial, sans-serif; fill: #111827; }
+      .subtitle { font: 500 19px Inter, Arial, sans-serif; fill: #536173; }
+      .section { font: 800 22px Inter, Arial, sans-serif; fill: #111827; letter-spacing: 0.4px; }
+      .label { font: 750 18px Inter, Arial, sans-serif; fill: #1F2937; }
+      .small { font: 500 14px Inter, Arial, sans-serif; fill: #536173; }
+      .tiny { font: 700 12px Inter, Arial, sans-serif; fill: #667085; letter-spacing: 0.5px; }
+      .pillText { font: 800 13px Inter, Arial, sans-serif; fill: #111827; }
+      .mono { font: 650 13px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; fill: #344054; }
+      .box { fill: #FFFFFF; stroke: #D7DEE8; stroke-width: 1.4; rx: 16; filter: url(#softShadow); }
+      .boxNoShadow { fill: #FFFFFF; stroke: #D7DEE8; stroke-width: 1.4; rx: 16; }
+      .redBox { fill: #FFF5F5; stroke: #F7B5B5; stroke-width: 1.4; rx: 16; filter: url(#softShadow); }
+      .greenBox { fill: #F0FBF7; stroke: #9EDBC6; stroke-width: 1.4; rx: 16; filter: url(#softShadow); }
+      .blueBox { fill: #F2F7FF; stroke: #AEC7F5; stroke-width: 1.4; rx: 16; filter: url(#softShadow); }
+      .goldBox { fill: #FFF8E8; stroke: #F5D181; stroke-width: 1.4; rx: 16; filter: url(#softShadow); }
+      .purpleBox { fill: #F7F3FF; stroke: #C9B8F4; stroke-width: 1.4; rx: 16; filter: url(#softShadow); }
+      .line { stroke: #1F2937; stroke-width: 3; fill: none; marker-end: url(#arrowDark); }
+      .redLine { stroke: #E84A5F; stroke-width: 3; fill: none; marker-end: url(#arrowRed); }
+      .greenLine { stroke: #168A6A; stroke-width: 3; fill: none; marker-end: url(#arrowGreen); }
+      .dash { stroke-dasharray: 9 8; }
+    </style>
+  </defs>
+
+  <rect width="1800" height="1120" fill="url(#bg)"/>
+
+  <g filter="url(#shadow)">
+    <rect x="72" y="54" width="1656" height="1000" rx="34" fill="#FFFFFF" stroke="#DCE3EA" stroke-width="1.5"/>
+  </g>
+
+  <rect x="72" y="54" width="1656" height="9" fill="#111827"/>
+  <rect x="442" y="54" width="218" height="9" fill="#E84A5F"/>
+  <rect x="660" y="54" width="218" height="9" fill="#FFC857"/>
+  <rect x="878" y="54" width="218" height="9" fill="#2BAE85"/>
+  <rect x="1096" y="54" width="218" height="9" fill="#3167B1"/>
+
+  <text x="118" y="125" class="title">ProductPulse AI - High Level Architecture</text>
+  <text x="120" y="161" class="subtitle">Adidas-inspired retail product intelligence and support copilot on Databricks Free Edition</text>
+
+  <g transform="translate(1230 102)">
+    <rect x="0" y="0" width="150" height="36" rx="18" fill="#F1F8F5" stroke="#B8E2D3"/>
+    <circle cx="23" cy="18" r="6" fill="#2BAE85"/>
+    <text x="40" y="23" class="pillText">Lakebase</text>
+    <rect x="164" y="0" width="150" height="36" rx="18" fill="#F3F7FE" stroke="#BDD0F4"/>
+    <circle cx="187" cy="18" r="6" fill="#3167B1"/>
+    <text x="204" y="23" class="pillText">SQL Gold</text>
+    <rect x="328" y="0" width="150" height="36" rx="18" fill="#FFF6E6" stroke="#F4D18A"/>
+    <circle cx="351" cy="18" r="6" fill="#FFC857"/>
+    <text x="368" y="23" class="pillText">Apps UI</text>
+  </g>
+
+  <text x="118" y="228" class="section">1. Business Data Sources</text>
+  <text x="470" y="228" class="section">2. Governed Lakehouse Pipeline</text>
+  <text x="1262" y="228" class="section">3. Serving, Retrieval, And User Experience</text>
+
+  <g>
+    <rect x="118" y="260" width="270" height="105" class="redBox"/>
+    <rect x="142" y="285" width="54" height="54" rx="14" fill="#E84A5F"/>
+    <path d="M155 300 H183 M155 313 H183 M155 326 H174" stroke="white" stroke-width="4" stroke-linecap="round"/>
+    <text x="214" y="302" class="label">Reviews</text>
+    <text x="214" y="328" class="small">2,331 customer reviews</text>
+    <text x="214" y="350" class="small">ratings, issue tags, sentiment</text>
+
+    <rect x="118" y="390" width="270" height="105" class="goldBox"/>
+    <rect x="142" y="415" width="54" height="54" rx="14" fill="#FFC857"/>
+    <path d="M157 430 H181 M157 444 H181 M163 458 H175" stroke="#111827" stroke-width="4" stroke-linecap="round"/>
+    <text x="214" y="432" class="label">Support Tickets</text>
+    <text x="214" y="458" class="small">720 ticket conversations</text>
+    <text x="214" y="480" class="small">reason, priority, segment</text>
+
+    <rect x="118" y="520" width="270" height="105" class="blueBox"/>
+    <rect x="142" y="545" width="54" height="54" rx="14" fill="#3167B1"/>
+    <path d="M157 585 L157 565 L169 557 L181 565 L181 585 Z" stroke="white" stroke-width="4" fill="none" stroke-linejoin="round"/>
+    <text x="214" y="562" class="label">Orders And Returns</text>
+    <text x="214" y="588" class="small">12,819 order lines</text>
+    <text x="214" y="610" class="small">925 return events</text>
+
+    <rect x="118" y="650" width="270" height="105" class="greenBox"/>
+    <rect x="142" y="675" width="54" height="54" rx="14" fill="#2BAE85"/>
+    <path d="M158 716 H180 M158 704 H180 M158 692 H180" stroke="white" stroke-width="4" stroke-linecap="round"/>
+    <text x="214" y="692" class="label">Inventory Snapshots</text>
+    <text x="214" y="718" class="small">672 node snapshots</text>
+    <text x="214" y="740" class="small">stock and exchange signals</text>
+
+    <rect x="118" y="780" width="270" height="105" class="purpleBox"/>
+    <rect x="142" y="805" width="54" height="54" rx="14" fill="#7A5AF8"/>
+    <path d="M158 818 H180 V850 H158 Z M158 829 H180" stroke="white" stroke-width="4" fill="none" stroke-linejoin="round"/>
+    <text x="214" y="822" class="label">Internal PDFs</text>
+    <text x="214" y="848" class="small">10 docs, 100 pages</text>
+    <text x="214" y="870" class="small">SOPs, QA, policy, briefs</text>
+  </g>
+
+  <g>
+    <rect x="444" y="260" width="768" height="625" rx="24" fill="url(#lakehouse)" stroke="#D7DEE8" stroke-width="1.5" filter="url(#softShadow)"/>
+    <text x="482" y="304" class="section">Databricks Lakehouse</text>
+    <text x="482" y="331" class="small">Unity Catalog governed pipeline with serverless Workflows and Delta tables</text>
+
+    <rect x="482" y="370" width="190" height="108" class="boxNoShadow"/>
+    <text x="510" y="404" class="label">UC Volume</text>
+    <text x="510" y="430" class="small">raw_data/raw</text>
+    <text x="510" y="452" class="mono">CSV + JSONL + PDF</text>
+
+    <rect x="742" y="370" width="190" height="108" class="boxNoShadow"/>
+    <text x="770" y="404" class="label">Bronze Delta</text>
+    <text x="770" y="430" class="small">clean raw tables</text>
+    <text x="770" y="452" class="mono">PDF text extracted</text>
+
+    <rect x="1002" y="370" width="170" height="108" class="boxNoShadow"/>
+    <text x="1030" y="404" class="label">Silver Chunks</text>
+    <text x="1030" y="430" class="small">RAG-ready corpus</text>
+    <text x="1030" y="452" class="mono">chunk + metadata</text>
+
+    <path d="M672 424 H732" class="line"/>
+    <path d="M932 424 H992" class="line"/>
+
+    <rect x="610" y="560" width="238" height="118" class="blueBox"/>
+    <text x="640" y="597" class="label">Gold Metrics</text>
+    <text x="640" y="624" class="small">product daily metrics</text>
+    <text x="640" y="646" class="small">issue trends and returns</text>
+    <text x="640" y="668" class="mono">gold_product_daily</text>
+
+    <rect x="928" y="560" width="244" height="118" class="redBox"/>
+    <text x="958" y="597" class="label">Embeddings</text>
+    <text x="958" y="624" class="small">Spark SQL ai_query</text>
+    <text x="958" y="646" class="small">Qwen embedding model</text>
+    <text x="958" y="668" class="mono">silver_document_embeddings</text>
+
+    <path d="M1087 478 V545 H1050 V550" class="redLine"/>
+    <path d="M837 478 V535 H729 V550" class="line"/>
+
+    <rect x="482" y="744" width="690" height="92" class="greenBox"/>
+    <text x="510" y="780" class="label">Unity Catalog Boundary</text>
+    <text x="510" y="807" class="small">Default project namespace: adidas_retail_ai.productpulse</text>
+    <text x="930" y="807" class="mono">catalog.schema.tables + volume</text>
+  </g>
+
+  <path d="M388 315 C420 315 420 424 472 424" class="line"/>
+  <path d="M388 445 C420 445 420 424 472 424" class="line"/>
+  <path d="M388 575 C420 575 420 424 472 424" class="line"/>
+  <path d="M388 705 C420 705 420 424 472 424" class="line"/>
+  <path d="M388 835 C420 835 420 424 472 424" class="line"/>
+
+  <g>
+    <rect x="1262" y="260" width="390" height="166" rx="22" fill="url(#appPanel)" stroke="#D7DEE8" stroke-width="1.5" filter="url(#softShadow)"/>
+    <text x="1296" y="304" class="section">Databricks Apps</text>
+    <text x="1296" y="333" class="small">Streamlit conversational interface</text>
+    <rect x="1296" y="358" width="98" height="34" rx="17" fill="#F1F8F5" stroke="#B8E2D3"/>
+    <text x="1320" y="381" class="pillText">Ready</text>
+    <rect x="1407" y="358" width="158" height="34" rx="17" fill="#FFF6E6" stroke="#F4D18A"/>
+    <text x="1430" y="381" class="pillText">RAG + SQL + Memory</text>
+
+    <rect x="1262" y="462" width="390" height="132" class="greenBox"/>
+    <text x="1296" y="502" class="label">Lakebase Postgres</text>
+    <text x="1296" y="529" class="small">pgvector retrieval store</text>
+    <text x="1296" y="551" class="small">conversation_memory table</text>
+    <text x="1296" y="573" class="mono">rag_chunks + memory</text>
+
+    <rect x="1262" y="630" width="390" height="132" class="blueBox"/>
+    <text x="1296" y="670" class="label">SQL Warehouse</text>
+    <text x="1296" y="697" class="small">structured metric questions</text>
+    <text x="1296" y="719" class="small">queries governed Gold Delta tables</text>
+    <text x="1296" y="741" class="mono">top products, rates, trends</text>
+
+    <rect x="1262" y="798" width="390" height="132" class="purpleBox"/>
+    <text x="1296" y="838" class="label">Foundation Models</text>
+    <text x="1296" y="865" class="small">query rewrite and final answer</text>
+    <text x="1296" y="887" class="small">embedding model for user query</text>
+    <text x="1296" y="909" class="mono">Qwen + Llama endpoints</text>
+  </g>
+
+  <path d="M1172 618 C1215 618 1212 528 1252 528" class="redLine"/>
+  <path d="M1172 618 C1215 618 1212 696 1252 696" class="line"/>
+  <path d="M1457 426 V452" class="greenLine"/>
+  <path d="M1457 594 V620" class="greenLine"/>
+  <path d="M1457 762 V788" class="line"/>
+  <path d="M1262 864 C1198 864 1198 628 1182 628" class="redLine dash"/>
+  <path d="M1262 528 C1204 528 1204 616 1182 616" class="greenLine dash"/>
+
+  <g>
+    <rect x="118" y="938" width="1534" height="70" rx="18" fill="#111827"/>
+    <text x="150" y="981" font-family="Inter, Arial, sans-serif" font-size="19" font-weight="800" fill="#FFFFFF">Classroom story:</text>
+    <text x="314" y="981" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="500" fill="#D1D5DB">raw retail signals land in Unity Catalog, Delta turns them into governed analytics and RAG chunks, Lakebase powers retrieval and memory, and Databricks Apps exposes the copilot.</text>
+  </g>
+
+  <g>
+    <text x="1508" y="1028" class="tiny">PROJECT</text>
+    <text x="1577" y="1028" class="mono">productpulse-ai</text>
+  </g>
+</svg>

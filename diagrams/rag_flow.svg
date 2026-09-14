@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900" role="img" aria-labelledby="title desc">
+  <title id="title">ProductPulse AI RAG Flow</title>
+  <desc id="desc">RAG pipeline with query rewrite, embeddings, Lakebase retrieval, reranking, and cited answer generation.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M2,2 L10,6 L2,10 Z" fill="#2f4a62"/>
+    </marker>
+    <filter id="shadow" x="-15%" y="-15%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="8" stdDeviation="9" flood-color="#0f2435" flood-opacity="0.13"/>
+    </filter>
+    <style>
+      .title{font-family:Inter,Arial,sans-serif;font-size:32px;font-weight:800;fill:#17324d}
+      .small{font-family:Inter,Arial,sans-serif;font-size:17px;fill:#3f5265}
+      .tiny{font-family:Inter,Arial,sans-serif;font-size:14px;fill:#5d6e7d}
+      .step{fill:#ffffff;stroke:#a0b2c0;stroke-width:2;filter:url(#shadow)}
+      .num{font-family:Inter,Arial,sans-serif;font-size:24px;font-weight:900;fill:#ffffff}
+      .head{font-family:Inter,Arial,sans-serif;font-size:21px;font-weight:800;fill:#18324a}
+      .arrow{stroke:#2f4a62;stroke-width:3;fill:none;marker-end:url(#arrow)}
+    </style>
+  </defs>
+  <rect width="1400" height="900" fill="#f7fafb"/>
+  <text x="70" y="70" class="title">Advanced RAG Flow with Query Rewrite and Reranking</text>
+  <text x="70" y="103" class="small">Lakebase vector retrieval, transparent reranking, cited retail answer</text>
+
+  <g transform="translate(90 170)">
+    <rect width="260" height="135" rx="18" class="step"/>
+    <circle cx="42" cy="42" r="23" fill="#4b83bd"/>
+    <text x="35" y="51" class="num">1</text>
+    <text x="82" y="43" class="head">User Question</text>
+    <text x="30" y="82" class="tiny">"Why are customers returning</text>
+    <text x="30" y="104" class="tiny">RUN-ULTRA-01?"</text>
+  </g>
+
+  <g transform="translate(410 170)">
+    <rect width="260" height="135" rx="18" class="step"/>
+    <circle cx="42" cy="42" r="23" fill="#8b6fc1"/>
+    <text x="35" y="51" class="num">2</text>
+    <text x="82" y="43" class="head">Rewrite</text>
+    <text x="30" y="82" class="tiny">LLM keeps product id, issue,</text>
+    <text x="30" y="104" class="tiny">date intent, and retail terms</text>
+  </g>
+
+  <g transform="translate(730 170)">
+    <rect width="260" height="135" rx="18" class="step"/>
+    <circle cx="42" cy="42" r="23" fill="#b78c36"/>
+    <text x="35" y="51" class="num">3</text>
+    <text x="82" y="43" class="head">Embed Query</text>
+    <text x="30" y="82" class="tiny">databricks-qwen3-embedding-0-6b</text>
+    <text x="30" y="104" class="tiny">returns 1024-d vector</text>
+  </g>
+
+  <g transform="translate(1050 170)">
+    <rect width="260" height="135" rx="18" class="step"/>
+    <circle cx="42" cy="42" r="23" fill="#b8564e"/>
+    <text x="35" y="51" class="num">4</text>
+    <text x="82" y="43" class="head">Retrieve</text>
+    <text x="30" y="82" class="tiny">Lakebase ANN search</text>
+    <text x="30" y="104" class="tiny">metadata filter by product</text>
+  </g>
+
+  <g transform="translate(1050 430)">
+    <rect width="260" height="150" rx="18" class="step"/>
+    <circle cx="42" cy="42" r="23" fill="#5d9b6b"/>
+    <text x="35" y="51" class="num">5</text>
+    <text x="82" y="43" class="head">Rerank</text>
+    <text x="30" y="84" class="tiny">Blend vector distance with</text>
+    <text x="30" y="106" class="tiny">transparent keyword overlap</text>
+    <text x="30" y="128" class="tiny">before final context assembly</text>
+  </g>
+
+  <g transform="translate(730 430)">
+    <rect width="260" height="150" rx="18" class="step"/>
+    <circle cx="42" cy="42" r="23" fill="#4b83bd"/>
+    <text x="35" y="51" class="num">6</text>
+    <text x="82" y="43" class="head">Build Context</text>
+    <text x="30" y="84" class="tiny">Top chunks become numbered</text>
+    <text x="30" y="106" class="tiny">evidence blocks with source,</text>
+    <text x="30" y="128" class="tiny">product, and event date</text>
+  </g>
+
+  <g transform="translate(410 430)">
+    <rect width="260" height="150" rx="18" class="step"/>
+    <circle cx="42" cy="42" r="23" fill="#8b6fc1"/>
+    <text x="35" y="51" class="num">7</text>
+    <text x="82" y="43" class="head">Generate</text>
+    <text x="30" y="84" class="tiny">LLM receives question, memory,</text>
+    <text x="30" y="106" class="tiny">metrics, and cited evidence</text>
+    <text x="30" y="128" class="tiny">with strict grounding prompt</text>
+  </g>
+
+  <g transform="translate(90 430)">
+    <rect width="260" height="150" rx="18" class="step"/>
+    <circle cx="42" cy="42" r="23" fill="#5d9b6b"/>
+    <text x="35" y="51" class="num">8</text>
+    <text x="82" y="43" class="head">Answer</text>
+    <text x="30" y="84" class="tiny">Citations, diagnosis, and</text>
+    <text x="30" y="106" class="tiny">next actions for support,</text>
+    <text x="30" y="128" class="tiny">product, and operations</text>
+  </g>
+
+  <path class="arrow" d="M350 237 L410 237"/>
+  <path class="arrow" d="M670 237 L730 237"/>
+  <path class="arrow" d="M990 237 L1050 237"/>
+  <path class="arrow" d="M1180 305 L1180 430"/>
+  <path class="arrow" d="M1050 505 L990 505"/>
+  <path class="arrow" d="M730 505 L670 505"/>
+  <path class="arrow" d="M410 505 L350 505"/>
+
+  <rect x="160" y="700" width="1080" height="88" rx="18" fill="#ffffff" stroke="#c5d2dc" stroke-width="2"/>
+  <text x="190" y="735" class="head">Why this matters</text>
+  <text x="190" y="763" class="small">Query rewrite handles vague business wording. Retrieval finds source facts. Reranking improves precision. Citations make the answer auditable.</text>
+</svg>

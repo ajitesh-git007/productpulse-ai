@@ -1,0 +1,96 @@
+bundle:
+  name: productpulse_ai
+
+variables:
+  catalog:
+    default: adidas_retail_ai
+  schema:
+    default: productpulse
+
+resources:
+  jobs:
+    productpulse_uc_setup:
+      name: ProductPulse AI UC Setup
+      tasks:
+        - task_key: setup_unity_catalog
+          notebook_task:
+            notebook_path: ./notebooks/00_setup_unity_catalog.py
+            base_parameters:
+              catalog: ${var.catalog}
+              schema: ${var.schema}
+      queue:
+        enabled: true
+
+    productpulse_daily_pipeline:
+      name: ProductPulse AI Daily Pipeline
+      environments:
+        - environment_key: productpulse_serverless_env
+          spec:
+            environment_version: "5"
+            dependencies:
+              - "pypdf>=4.3.0"
+              - "pg8000>=1.31.0"
+              - "databricks-sdk>=0.89.0"
+      parameters:
+        - name: pg_host
+          default: ""
+        - name: pg_port
+          default: "5432"
+        - name: pg_database
+          default: "databricks_postgres"
+        - name: pg_user
+          default: ""
+        - name: pg_password
+          default: ""
+        - name: pg_sslmode
+          default: "require"
+        - name: embedding_model
+          default: "databricks-qwen3-embedding-0-6b"
+      schedule:
+        quartz_cron_expression: "0 0 9 * * ?"
+        timezone_id: "Asia/Kolkata"
+        pause_status: PAUSED
+      tasks:
+        - task_key: ingest_raw_to_bronze
+          notebook_task:
+            notebook_path: ./notebooks/01_ingest_raw_to_bronze.py
+            base_parameters:
+              catalog: ${var.catalog}
+              schema: ${var.schema}
+          environment_key: productpulse_serverless_env
+        - task_key: build_silver_chunks
+          depends_on:
+            - task_key: ingest_raw_to_bronze
+          notebook_task:
+            notebook_path: ./notebooks/02_build_silver_chunks.py
+            base_parameters:
+              catalog: ${var.catalog}
+              schema: ${var.schema}
+          environment_key: productpulse_serverless_env
+        - task_key: build_gold_metrics
+          depends_on:
+            - task_key: build_silver_chunks
+          notebook_task:
+            notebook_path: ./notebooks/04_build_gold_metrics.py
+            base_parameters:
+              catalog: ${var.catalog}
+              schema: ${var.schema}
+          environment_key: productpulse_serverless_env
+        - task_key: embed_and_sync_lakebase
+          depends_on:
+            - task_key: build_silver_chunks
+          notebook_task:
+            notebook_path: ./notebooks/03_embed_and_sync_lakebase.py
+            base_parameters:
+              catalog: ${var.catalog}
+              schema: ${var.schema}
+              pg_host: "{{job.parameters.pg_host}}"
+              pg_port: "{{job.parameters.pg_port}}"
+              pg_database: "{{job.parameters.pg_database}}"
+              pg_user: "{{job.parameters.pg_user}}"
+              pg_password: "{{job.parameters.pg_password}}"
+              pg_sslmode: "{{job.parameters.pg_sslmode}}"
+              embedding_model: "{{job.parameters.embedding_model}}"
+          environment_key: productpulse_serverless_env
+      queue:
+        enabled: true

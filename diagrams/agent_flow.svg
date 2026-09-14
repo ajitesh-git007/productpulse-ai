@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900" role="img" aria-labelledby="title desc">
+  <title id="title">ProductPulse AI Agent Flow</title>
+  <desc id="desc">Agent planner and tool calling architecture for the retail support copilot.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M2,2 L10,6 L2,10 Z" fill="#2e485f"/>
+    </marker>
+    <filter id="shadow" x="-15%" y="-15%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="8" stdDeviation="9" flood-color="#0f2435" flood-opacity="0.13"/>
+    </filter>
+    <style>
+      .title{font-family:Inter,Arial,sans-serif;font-size:32px;font-weight:800;fill:#17324d}
+      .small{font-family:Inter,Arial,sans-serif;font-size:17px;fill:#425769}
+      .card{fill:#ffffff;stroke:#9fb1c0;stroke-width:2;filter:url(#shadow)}
+      .head{font-family:Inter,Arial,sans-serif;font-size:22px;font-weight:800;fill:#18324a}
+      .text{font-family:Inter,Arial,sans-serif;font-size:16px;fill:#3f5265}
+      .pill{font-family:Inter,Arial,sans-serif;font-size:15px;font-weight:800;fill:#ffffff}
+      .arrow{stroke:#2e485f;stroke-width:3;fill:none;marker-end:url(#arrow)}
+      .dash{stroke:#687a8a;stroke-width:2;fill:none;stroke-dasharray:8 8;marker-end:url(#arrow)}
+    </style>
+  </defs>
+  <rect width="1400" height="900" fill="#f7f9fb"/>
+  <text x="70" y="70" class="title">Custom Conversational Agent and Tool Calling</text>
+  <text x="70" y="103" class="small">Transparent planner today, replaceable with native model tool calling later</text>
+
+  <rect x="80" y="215" width="250" height="135" rx="20" class="card"/>
+  <rect x="105" y="238" width="82" height="30" rx="15" fill="#4b83bd"/>
+  <text x="124" y="259" class="pill">Input</text>
+  <text x="105" y="302" class="head">Business Question</text>
+  <text x="105" y="328" class="text">Product, return, policy,</text>
+  <text x="105" y="351" class="text">trend, or support intent</text>
+
+  <rect x="420" y="185" width="295" height="195" rx="20" class="card"/>
+  <rect x="445" y="208" width="96" height="30" rx="15" fill="#8b6fc1"/>
+  <text x="467" y="229" class="pill">Plan</text>
+  <text x="445" y="277" class="head">Agent Planner</text>
+  <text x="445" y="306" class="text">Extract product id</text>
+  <text x="445" y="330" class="text">Choose tools by intent</text>
+  <text x="445" y="354" class="text">Constrain SQL to templates</text>
+
+  <rect x="805" y="110" width="250" height="130" rx="20" class="card"/>
+  <rect x="830" y="133" width="92" height="30" rx="15" fill="#b8564e"/>
+  <text x="854" y="154" class="pill">Tool</text>
+  <text x="830" y="197" class="head">Memory Read</text>
+  <text x="830" y="223" class="text">Lakebase session facts</text>
+
+  <rect x="805" y="285" width="250" height="145" rx="20" class="card"/>
+  <rect x="830" y="308" width="92" height="30" rx="15" fill="#5d9b6b"/>
+  <text x="854" y="329" class="pill">Tool</text>
+  <text x="830" y="374" class="head">RAG Search</text>
+  <text x="830" y="400" class="text">Rewrite, embed, retrieve,</text>
+  <text x="830" y="423" class="text">rerank, cite sources</text>
+
+  <rect x="805" y="475" width="250" height="145" rx="20" class="card"/>
+  <rect x="830" y="498" width="92" height="30" rx="15" fill="#b1842f"/>
+  <text x="854" y="519" class="pill">Tool</text>
+  <text x="830" y="564" class="head">Metric SQL</text>
+  <text x="830" y="590" class="text">Gold product and issue</text>
+  <text x="830" y="613" class="text">tables through warehouse</text>
+
+  <rect x="805" y="665" width="250" height="130" rx="20" class="card"/>
+  <rect x="830" y="688" width="92" height="30" rx="15" fill="#b8564e"/>
+  <text x="854" y="709" class="pill">Tool</text>
+  <text x="830" y="752" class="head">Memory Write</text>
+  <text x="830" y="778" class="text">Save durable preferences</text>
+
+  <rect x="1135" y="300" width="220" height="180" rx="20" class="card"/>
+  <rect x="1160" y="323" width="98" height="30" rx="15" fill="#8b6fc1"/>
+  <text x="1176" y="344" class="pill">Answer</text>
+  <text x="1160" y="392" class="head">Final LLM Call</text>
+  <text x="1160" y="421" class="text">Uses evidence, metrics,</text>
+  <text x="1160" y="445" class="text">memory, and guardrails</text>
+  <text x="1160" y="469" class="text">to produce citations</text>
+
+  <rect x="1135" y="575" width="220" height="125" rx="20" class="card"/>
+  <rect x="1160" y="598" width="92" height="30" rx="15" fill="#4b83bd"/>
+  <text x="1184" y="619" class="pill">User</text>
+  <text x="1160" y="662" class="head">Copilot Reply</text>
+  <text x="1160" y="688" class="text">Diagnosis + next actions</text>
+
+  <path class="arrow" d="M330 282 L420 282"/>
+  <path class="arrow" d="M715 282 C760 205 760 176 805 176"/>
+  <path class="arrow" d="M715 305 C760 330 760 356 805 356"/>
+  <path class="arrow" d="M715 335 C760 455 760 545 805 545"/>
+  <path class="dash" d="M715 365 C760 560 760 728 805 728"/>
+  <path class="arrow" d="M1055 176 C1110 200 1110 338 1135 372"/>
+  <path class="arrow" d="M1055 356 L1135 390"/>
+  <path class="arrow" d="M1055 545 C1110 520 1110 445 1135 425"/>
+  <path class="arrow" d="M1245 480 L1245 575"/>
+  <path class="dash" d="M1245 700 C1010 845 530 815 205 350"/>
+
+  <rect x="170" y="760" width="470" height="70" rx="18" fill="#ffffff" stroke="#c5d2dc" stroke-width="2"/>
+  <text x="195" y="792" class="head" font-size="19">Production guardrail</text>
+  <text x="195" y="818" class="text">The LLM receives results, not raw database permissions.</text>
+</svg>
+

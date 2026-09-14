@@ -1,0 +1,11 @@
+doc_id,source_type,product_id,title,effective_date,file_name,page_count
+PDF-RETURNS-OPERATIONS-2026,policy_pdf,,Retail Returns Operations Playbook - Launch Season 2026,2026-08-01,retail_returns_operations_playbook_2026.pdf,10
+PDF-RUN-ULTRA-LAUNCH-BRIEF,product_brief_pdf,RUN-ULTRA-01,RUN-ULTRA-01 Launch Brief and Fit Calibration,2026-08-01,run_ultra_01_launch_fit_brief.pdf,10
+PDF-SOC-CLEAT-QA-2026,qa_pdf,SOC-CLEAT-04,SOC-CLEAT-04 Firm-Ground QA and Warranty Field Guide,2026-08-05,soc_cleat_04_fg_qa_warranty_guide.pdf,10
+PDF-CONTENT-OPS-2026,sop_pdf,,Product Content Operations SOP - Feedback Driven Updates,2026-08-01,product_content_operations_feedback_sop.pdf,10
+PDF-APPAREL-COLORFASTNESS-2026,quality_pdf,TRN-HOOD-03,Training Apparel Colorfastness Quality Review,2026-07-25,training_apparel_colorfastness_quality_review.pdf,10
+PDF-INVENTORY-EXCHANGE-2026,operations_pdf,,Inventory-Aware Exchange Operations Guide,2026-08-01,inventory_aware_exchange_operations_guide.pdf,10
+PDF-VOC-LAUNCH-DIGEST-2026,voc_pdf,,Voice of Customer Launch Digest - Week 33,2026-08-20,voice_of_customer_launch_digest_week_33.pdf,10
+PDF-MARKETPLACE-CONTENT-2026,marketplace_pdf,,Marketplace Product Content Alignment Guide,2026-08-01,marketplace_product_content_alignment_guide.pdf,10
+PDF-SUPPORT-MACROS-2026,support_pdf,,Support Macro Library - Product Issue Intake,2026-08-01,support_macro_library_product_issue_intake.pdf,10
+PDF-QUALITY-ESCALATION-2026,quality_pdf,,Product Quality Escalation Thresholds,2026-08-01,product_quality_escalation_thresholds.pdf,10
